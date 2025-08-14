@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="midias/flexbox.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
     <title>Menu Flexbox</title>
 </head>
 <body>
@@ -12,10 +13,10 @@
         <menu>
             <ul>
 
-                <li><a href="#">O que é?</a></li>
-                <li><a href="#">Quando usar?</a></li>
-                <li><a href="#">Por que usar?</a></li>
-                <li><a href="#">Bonus</a></li>
+                <ol><a href="#">O que é?</a></ol>
+                <ol><a href="#">Quando usar?</a></ol>
+                <ol><a href="#">Por que usar?</a></ol>
+                <ol><a href="#">Bonus</a></ol>
             </ul>
         </menu>
     </header>
@@ -26,28 +27,32 @@
             <p>Flexbox é uma forma do CSS organizar elementos em linha ou coluna de maneira flexível, permitindo alinhar e distribuir o espaço entre eles automaticamente, fazer com que cresçam ou encolham conforme o tamanho da tela, sendo muito usado para criar layouts responsivos de forma simples.</p>
 
             <h1>Quando usar Flexbox?</h1>
-            <p>Você usa Flexbox quando quer organizar elementos de forma alinhada e adaptável, como:
+            <p>Você usa Flexbox quando quer organizar elementos de forma alinhada e adaptável, como:</p>
+            <br>
 
             <ul>
                 <li>Criar menus, barras de navegação ou rodapés.</li>
                 <li>Centralizar um item no meio da tela, na horizontal e/ou vertical.</li>    
                 <li>Distribuir espaço entre elementos sem calcular manualmente margens.</li>
                 <li>Fazer um layout que se ajuste bem em diferentes tamanhos de tela.</li>
-
             </ul>
-            Resumindo: use quando precisar alinhar e distribuir elementos de forma prática e responsiva.</p>
+            <br>
+            <p>Resumindo: use quando precisar alinhar e distribuir elementos de forma prática e responsiva.</p>
 
+            <br>
             <h1>Por que usar Flexbox?</h1>
             <p>Usar Flexbox vale a pena porque ele facilita muito o alinhamento e a organização dos elementos, reduz a quantidade de código, funciona bem em layouts responsivos e evita cálculos manuais de tamanhos e espaçamentos, tornando o desenvolvimento mais rápido e simples.</p>
 
-            <h1>Bonus</h1>
-            <ul>
-                
-                <li>Ordem flexível — Você pode mudar a ordem dos elementos na tela sem alterar o HTML, usando apenas a propriedade <code>order</code></li>
-                <li>Centralização perfeita — Com poucas linhas, você consegue centralizar qualquer elemento na vertical e horizontal, algo que antes era bem trabalhoso no CSS.</li>
-                <li>Espaço automático — O Flexbox consegue distribuir espaço extra entre itens (<code>space-between, space-around, space-evenly</code>) sem precisar de margens manuais</li>
-                <li>Mistura com outros layouts — Ele funciona muito bem junto com CSS Grid, combinando flexibilidade com controle preciso de áreas.</li>
-            </ul>
+            
+            <header class="bonus">
+                <h1>Bonus</h1>
+                <ul>
+                    <li>Ordem flexível: Você pode mudar a ordem dos elementos na tela sem alterar o HTML, usando apenas a propriedade <code>order</code></li>
+                    <li>Centralização perfeita: Com poucas linhas, você consegue centralizar qualquer elemento na vertical e horizontal, algo que antes era bem trabalhoso no CSS.</li>
+                    <li>Espaço automático: O Flexbox consegue distribuir espaço extra entre itens (<code>space-between, space-around, space-evenly</code>) sem precisar de margens manuais.</li>
+                    <li>Mistura com outros layouts: Ele funciona muito bem junto com CSS Grid, combinando flexibilidade com controle preciso de áreas.</li>
+                </ul>
+            </header>
         </article>
     </main>
 </body>
