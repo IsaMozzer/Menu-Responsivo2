@@ -11,12 +11,19 @@ body{
 
 header{
     background-color: #354B61;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 header > h1{
     font-size: 2em;
     color: #baeceb;
+    flex: 0 0 200px;
+    text-align: left;
+    margin-left: 10px;
 }
 
 p, code{
@@ -54,7 +61,31 @@ header.bonus{
     border: 1px solid black;
 }
 
-header > menu > ul > li{
-    font-style: none;
-    list-style: none;
+menu{
+    display: flex;
+  
+}
+
+nav{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav a {
+    all: unset;        /*tira os estilos de link*/
+    cursor: pointer;   
+    color: white;   
+    font-size: 1.1em;
+    background-color: rgb(184, 214, 214);
+    border-radius: 5px;   
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: beige;
+    color: black;
+    transition: background-color .1s;
+    transition: color .1s;
 }
