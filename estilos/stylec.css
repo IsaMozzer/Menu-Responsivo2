@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 300px) and (max-width: 652px){
+
+    header.header1 > h1{
+        flex: 0 0 600px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+
+    }
+}
